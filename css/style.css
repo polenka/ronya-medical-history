@@ -254,7 +254,19 @@ textarea {
   }
 }
 
-
+a[href] {
+  color: #157ab4;
+  text-decoration: underline;
+  transition: all .15s ease;
+}
+a[href]:hover {
+  color: #188dcf;
+  text-decoration: none;
+}
+a[href]:active {
+  color: #126799;
+  text-decoration: none;
+}
 /* Media Queries */
 /* Card sizing */
 /* Colors */
@@ -351,7 +363,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 1170px;
-    height: 3800px;
+    height: 4100px;
     margin: 0 auto;
   }
 }
@@ -389,6 +401,15 @@ body {
     margin: 90px;
     margin-top: 45px;
     margin-bottom: 45px;
+  }
+
+  #timeline .demo-card--step9,
+  #timeline .demo-card--step10 {
+    height: 600px;
+  }
+  #timeline .demo-card--step11,
+  #timeline .demo-card--step12 {
+    height: 650px;
   }
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
@@ -467,6 +488,16 @@ body {
 @media (min-width: 1200px) {
   #timeline .demo-card .body {
     height: 420px;
+  }
+
+  #timeline .demo-card--step9 .body,
+  #timeline .demo-card--step10 .body {
+    height: 515px;
+  }
+
+  #timeline .demo-card--step11 .body,
+  #timeline .demo-card--step12 .body {
+    height: 565px;
   }
 }
 #timeline .demo-card .body p {
