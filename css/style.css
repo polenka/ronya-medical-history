@@ -409,7 +409,7 @@ body {
   }
   #timeline .demo-card--step11,
   #timeline .demo-card--step12 {
-    height: 885px;
+    height: 903px;
   }
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
@@ -497,7 +497,7 @@ body {
 
   #timeline .demo-card--step11 .body,
   #timeline .demo-card--step12 .body {
-    height: 800px;
+    height: 818px;
   }
 }
 #timeline .demo-card .body p {
