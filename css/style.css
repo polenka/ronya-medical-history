@@ -363,7 +363,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 1170px;
-    height: 4100px;
+    height: 4200px;
     margin: 0 auto;
   }
 }
@@ -409,7 +409,7 @@ body {
   }
   #timeline .demo-card--step11,
   #timeline .demo-card--step12 {
-    height: 650px;
+    height: 885px;
   }
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
@@ -497,13 +497,16 @@ body {
 
   #timeline .demo-card--step11 .body,
   #timeline .demo-card--step12 .body {
-    height: 565px;
+    height: 800px;
   }
 }
 #timeline .demo-card .body p {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 15px;
+}
+#timeline .demo-card .body p:last-child {
+  margin-bottom: 0;
 }
 #timeline .demo-card .body img {
   display: block;
@@ -581,4 +584,11 @@ body {
 #timeline .demo-card--step12 .head::after {
   border-color: #124E78;
 }
+#timeline .demo-card--step13 {
+background-color: #874000;
+}
+#timeline .demo-card--step13 .head::after {
+  border-color: #874000;
+}
+
 
