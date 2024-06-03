@@ -590,5 +590,11 @@ background-color: #874000;
 #timeline .demo-card--step13 .head::after {
   border-color: #874000;
 }
+#timeline .demo-card--step14 {
+  background-color: #a663cc;
+  }
+  #timeline .demo-card--step14 .head::after {
+    border-color: #a663cc;
+  }
 
 
